@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://johwuy.github.io",
-  base: "/blog",
+  base: "/hub",
   integrations: [mdx(), sitemap(), tailwind()],
 });
